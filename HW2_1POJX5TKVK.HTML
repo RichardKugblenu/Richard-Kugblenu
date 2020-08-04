@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get The Date</title>
+   <style>
+       body{
+           background-color: gray;
+           color: black;
+        
+       }
+       button[type="dat"]{
+           background-color: white;
+           color: black;
+           width: 10%;
+           height: 2%;
+           padding: 4px 0;
+           }
+          
+     
+   </style>
+</head>
+<body>
+    <h1> A JavaScript program to get the current date.</h1>
+    <div>
+        <p>Before the click</p>
+        <p>.............................</p>
+        <p id="dome" style="color: honeydew;"></p>
+      <script>
+          document.getElementById("dome").innerHTML=Date();
+      </script>
+     
+    </div>
+    
+   
+    <br>
+    <div>
+        <p>After the click</p>
+        <p>.............................</p>
+        <button type="dat" onclick="document.getElementById('dat').innerHTML=Date()">Get Date</button>
+        <p id="dat" style="color: honeydew;"></p>
+    </div>
+    
+   
+   
+</body>
+</html>
